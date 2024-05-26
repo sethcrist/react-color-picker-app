@@ -1,0 +1,49 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 25px;
+  background-color: rgba(9, 2, 2, 0.117);
+  width: 75vw;
+  height: 90vh;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 2px;
+}
+
+.color-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border: 5px solid rgba(255, 255, 255, .5);
+  margin-bottom: 20px;
+  transition: 0.25 ea;
+}
+
+.color-display p {
+  font-size: 1.5em;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+input[type="color"] {
+  width: 70px;
+  height: 50px;
+  border: 3px solid rgba(0, 0, 0, 0.472);
+  border-radius: 5px;
+}
